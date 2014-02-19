@@ -20,9 +20,9 @@ jQuery(document).ready(function($) {
 		}
 		rounded = Math.round(Math.abs(difference)*100)/100
 
-		$('#yesterdays_price').html(
-			'This is $'+rounded+'<span id="word" style="color:'+style+'">'+ word +'</span> than yesterday'
-		);
+		$('#rounded').html(rounded)
+		$('#word').html(word).css('color', style);
+
 		satoshi = lastdollars/100000000
 		$('#satoshi').html(
 			satoshi
