@@ -12,10 +12,10 @@ jQuery(document).ready(function($) {
 
 	difference = lastdollars - yesterdollars
 	if (difference > 0) {
-		word = "more"
+		word = " more "
 		style = 'green'
 	} else {
-		word = " less"
+		word = " less "
 		style = 'red'
 	}
 	rounded = Math.round(Math.abs(difference)*100)/100
