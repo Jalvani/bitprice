@@ -98,11 +98,11 @@ textarea {
    ========================================================================== */
 
 #content{
-    height: 3em;
+    height: 33em;
     text-align: center;
     margin: auto;
   position: absolute;
-  top: -20em; left: 0; bottom: 0; right: 0;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 .title {
